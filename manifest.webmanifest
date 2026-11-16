@@ -1,0 +1,17 @@
+{
+  "name": "Trinh thám TCX",
+  "short_name": "Trinh thám",
+  "description": "TCX Trend Radar: trend mỗi ngày, viết content và làm ảnh theo luật TCX.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff3e3",
+  "theme_color": "#fff3e3",
+  "lang": "vi",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
