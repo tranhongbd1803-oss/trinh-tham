@@ -1,5 +1,5 @@
 // Vỏ app Trinh thám TCX: giữ sẵn phần vỏ để mở nhanh; nội dung thật luôn lấy mới từ web.
-const VO = 'trinh-tham-v3', TEP = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-180.png', './be.png'];
+const VO = 'trinh-tham-v4', TEP = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-180.png', './be.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(VO).then(c => c.addAll(TEP))); self.skipWaiting(); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== VO).map(k => caches.delete(k))))); self.clients.claim(); });
 self.addEventListener('fetch', e => {
