@@ -1,0 +1,276 @@
+{
+  "_ghi_chu": "Ma trận biến tấu: mỗi kịch bản gốc là 1 'quả'. Đổi các TRỤC dưới đây là ra cam, quýt, mít, dừa... Xương sống (7 nhịp) giữ nguyên. Thêm/bớt giá trị thoải mái, máy nhan_ban.py tự đọc.",
+  "the_loai": {
+    "lat-keo-cong-so": {
+      "ten": "Lật kèo công sở — bị coi thường rồi lật ngược",
+      "truc": {
+        "boi_canh": [
+          "công ty xây dựng",
+          "chi nhánh ngân hàng",
+          "bệnh viện tư",
+          "chuỗi nhà hàng",
+          "công ty logistics",
+          "khách sạn 5 sao",
+          "xưởng may xuất khẩu",
+          "startup công nghệ",
+          "trung tâm tiếng Anh",
+          "công ty bất động sản",
+          "siêu thị điện máy",
+          "văn phòng luật"
+        ],
+        "nhan_vat_chinh": [
+          "cô thực tập sinh mới ra trường",
+          "chị lao công ngoài 40",
+          "bác bảo vệ sắp nghỉ hưu",
+          "cậu nhân viên giao hàng",
+          "mẹ đơn thân đi làm lại",
+          "anh tài xế riêng của công ty",
+          "cô kế toán mới chuyển việc",
+          "chàng trai quê lên phố",
+          "chị tạp vụ",
+          "cậu kỹ thuật viên IT ít nói"
+        ],
+        "ke_chen_ep": [
+          "trưởng phòng hách dịch",
+          "đồng nghiệp ghen tị",
+          "con trai giám đốc",
+          "quản lý ca",
+          "cô thư ký thân cận sếp",
+          "khách hàng VIP",
+          "phó giám đốc tham vọng",
+          "nhóm 'chị đại' trong phòng"
+        ],
+        "kieu_chen_ep": [
+          "giao việc vặt cả ngày, không cho chạm vào việc chính",
+          "cướp công, ký tên mình lên báo cáo của nhân vật",
+          "đổ lỗi một sai sót không phải của nhân vật",
+          "chế giễu xuất thân, quê mùa trước cả phòng",
+          "cắt thưởng, ép tăng ca không lương",
+          "cô lập, không ai được ngồi ăn cùng",
+          "vu oan lấy cắp đồ"
+        ],
+        "bi_mat": [
+          "chính là người viết ra quy trình mà cả công ty đang dùng",
+          "là người âm thầm đánh giá chất lượng do tổng công ty cử xuống",
+          "từng cứu mạng vị khách quan trọng nhất của công ty",
+          "nắm giữ bằng chứng sai phạm từ ngày đầu",
+          "có chứng chỉ chuyên môn mà cả công ty không ai có",
+          "là người được nhà đầu tư mới chọn làm đầu mối",
+          "từng là sếp cũ của chính kẻ chèn ép ở công ty khác",
+          "nói thạo tiếng Nhật/Hàn — đúng thứ khách hàng lớn cần"
+        ],
+        "cao_trao": [
+          "cuộc họp ký hợp đồng lớn",
+          "đoàn thanh tra bất ngờ",
+          "sự cố khẩn cấp giữa đêm",
+          "buổi họp tổng kết cuối năm",
+          "khách nước ngoài đến làm việc",
+          "cuộc họp cổ đông",
+          "hệ thống sập trước giờ báo cáo"
+        ],
+        "kieu_ket": [
+          "công lý: kẻ chèn ép mất chức, nhân vật được trọng dụng",
+          "tha thứ: nhân vật cho kẻ chèn ép một cơ hội, hắn thay đổi",
+          "rời đi: nhân vật từ chối thăng chức, ra đi đầy kiêu hãnh",
+          "twist kép: kẻ chèn ép hóa ra cũng có nỗi khổ riêng",
+          "mở: để khán giả tự phán xử, hỏi 'nếu là bạn, bạn làm gì?'"
+        ],
+        "giong_ke": [
+          "ngôi thứ nhất — nhân vật chính kể",
+          "ngôi thứ nhất — kẻ chèn ép kể lại trong hối hận",
+          "ngôi thứ nhất — một đồng nghiệp đứng xem kể",
+          "ngôi thứ ba — người dẫn chuyện"
+        ]
+      },
+      "mau_tieu_de": [
+        "{ke_chen_ep_hoa} chèn ép {nhan_vat_ngan} suốt 3 tháng — đến {cao_trao} thì cả công ty chết lặng",
+        "Ai cũng coi thường {nhan_vat_ngan}, cho đến {cao_trao}",
+        "{nhan_vat_ngan_hoa} bị cả công ty coi thường — họ không biết người đó {bi_mat_ngan}",
+        "Tôi từng là {ke_chen_ep} — và đây là ngày tôi hối hận nhất đời",
+        "Coi thường {nhan_vat_ngan}, {ke_chen_ep} không ngờ cái giá phải trả"
+      ]
+    },
+    "an-tinh-tra-muon": {
+      "ten": "Ân tình trả muộn — một việc tốt nhỏ, quay lại sau nhiều năm",
+      "truc": {
+        "boi_canh": [
+          "bến xe ngày Tết",
+          "quán phở đầu ngõ",
+          "phòng cấp cứu",
+          "cây xăng giữa đêm mưa",
+          "tiệm sửa xe ven quốc lộ",
+          "trường làng",
+          "chợ đầu mối",
+          "ga tàu",
+          "nhà trọ sinh viên"
+        ],
+        "nguoi_giup": [
+          "bà cụ bán xôi",
+          "cậu sinh viên nghèo",
+          "chị bán vé số",
+          "anh xe ôm",
+          "cô giáo cắm bản",
+          "bác sửa xe",
+          "cô bé phục vụ quán"
+        ],
+        "nguoi_duoc_giup": [
+          "đứa trẻ đi lạc",
+          "người đàn ông trông như ăn xin",
+          "cụ già bị cướp giật",
+          "cô gái bỏ nhà đi",
+          "người lạ say rượu ngất bên đường",
+          "thằng bé ăn trộm bánh mì"
+        ],
+        "viec_tot": [
+          "cho một người lạ ăn bữa cơm không lấy tiền",
+          "đưa một người lạ vào viện, trả trước viện phí",
+          "cho một người lạ ngủ nhờ một đêm",
+          "cho một người lạ mượn tiền xe về quê",
+          "nói một câu tử tế với người lạ đang muốn buông xuôi"
+        ],
+        "thoi_gian": [
+          "5 năm sau",
+          "10 năm sau",
+          "15 năm sau",
+          "20 năm sau",
+          "đúng ngày giỗ người đó"
+        ],
+        "cach_gap_lai": [
+          "trong buổi phỏng vấn xin việc",
+          "khi người giúp bị đòi nợ, sắp mất nhà",
+          "trên giường bệnh",
+          "trong phiên tòa",
+          "qua một lá thư gửi nhầm địa chỉ",
+          "khi quán sắp bị giải tỏa"
+        ],
+        "kieu_ket": [
+          "đền đáp lớn bất ngờ",
+          "đền đáp bằng đúng thứ nhỏ bé năm xưa",
+          "người giúp từ chối nhận, chỉ xin một điều",
+          "twist: người được giúp năm xưa đã mất, con cháu đến trả ơn",
+          "nối tiếp: người được giúp lại đi giúp người khác"
+        ],
+        "giong_ke": [
+          "ngôi thứ nhất — người được giúp",
+          "ngôi thứ nhất — người giúp",
+          "ngôi thứ nhất — con của một trong hai người",
+          "ngôi thứ ba"
+        ]
+      },
+      "mau_tieu_de": [
+        "Tôi từng {viec_tot} — {thoi_gian}, người đó quay lại",
+        "Ai cũng cười {nguoi_giup} dại, cho đến {thoi_gian}",
+        "{nguoi_giup_hoa} {viec_tot} — {thoi_gian}, cả xóm sững sờ"
+      ]
+    },
+    "chuyen-nha": {
+      "ten": "Chuyện nhà — mẹ chồng nàng dâu, anh em, tài sản, hiếu thảo",
+      "truc": {
+        "xung_dot": [
+          "chia đất của bố mẹ",
+          "mẹ chồng chê con dâu nhà quê",
+          "anh em bỏ mặc mẹ già",
+          "con rể bị nhà vợ khinh nghèo",
+          "của hồi môn bị nhà chồng giữ",
+          "đứa con nuôi bị gạt khỏi di chúc",
+          "chị dâu và em chồng"
+        ],
+        "nhan_vat_chinh": [
+          "nàng dâu út",
+          "con rể ở rể",
+          "đứa con nuôi",
+          "người con thứ ít nói",
+          "bà mẹ già",
+          "ông bố goá vợ"
+        ],
+        "ke_chen_ep": [
+          "mẹ chồng",
+          "chị chồng",
+          "anh cả",
+          "em dâu khéo miệng",
+          "nhà vợ",
+          "người dì ghẻ"
+        ],
+        "bi_mat": [
+          "người âm thầm trả nợ cho cả nhà bao năm",
+          "người giữ di chúc thật",
+          "người duy nhất ở lại chăm bố mẹ lúc ốm",
+          "người có sổ tiết kiệm mẹ để lại",
+          "người đã bán vàng cưới để chữa bệnh cho bố chồng"
+        ],
+        "cao_trao": [
+          "đám giỗ đông đủ họ hàng",
+          "ngày đọc di chúc",
+          "mâm cơm 30 Tết",
+          "ngày mẹ nhập viện",
+          "đám cưới em út"
+        ],
+        "kieu_ket": [
+          "công lý",
+          "hòa giải, cả nhà ngồi lại",
+          "nhân vật ra đi, người kia hối hận muộn",
+          "mở kết hỏi khán giả"
+        ],
+        "giong_ke": [
+          "ngôi thứ nhất — nhân vật chính",
+          "ngôi thứ nhất — kẻ chèn ép hối hận",
+          "ngôi thứ nhất — đứa cháu chứng kiến"
+        ]
+      },
+      "mau_tieu_de": [
+        "{ke_chen_ep_hoa} chê {nhan_vat_ngan} — đến {cao_trao} cả họ mới biết sự thật",
+        "Chuyện {xung_dot}: không ai ngờ {nhan_vat_ngan} lại là {bi_mat}",
+        "Cả nhà coi thường {nhan_vat_ngan}, cho đến {cao_trao}"
+      ]
+    },
+    "nhan-qua": {
+      "ten": "Nhân quả đời thường — tham thì thâm, gieo gì gặt nấy",
+      "truc": {
+        "boi_canh": [
+          "xóm trọ",
+          "chợ quê",
+          "công ty gia đình",
+          "làng nghề",
+          "khu tập thể cũ",
+          "hội đồng hương"
+        ],
+        "nhan_vat_tham": [
+          "người hàng xóm lấn đất",
+          "chủ trọ ăn bớt tiền cọc",
+          "người bạn thân lừa vay tiền",
+          "ông chủ quỵt lương",
+          "người buôn gian lận cân"
+        ],
+        "nan_nhan": [
+          "cụ già neo đơn",
+          "đôi vợ chồng trẻ",
+          "cậu công nhân",
+          "chị bán rau",
+          "người khuyết tật"
+        ],
+        "qua_bao": [
+          "mất đúng thứ đã lấy, gấp mười",
+          "cần chính người mình hại cứu giúp",
+          "con cái mình lặp lại y hệt",
+          "danh tiếng sụp đổ trước cả xóm",
+          "người bị hại lại là người duy nhất giúp đỡ"
+        ],
+        "kieu_ket": [
+          "bài học cay đắng",
+          "hối cải và chuộc lỗi",
+          "lòng bao dung của nạn nhân",
+          "mở kết"
+        ],
+        "giong_ke": [
+          "ngôi thứ nhất — kẻ tham kể lại",
+          "ngôi thứ nhất — nạn nhân",
+          "ngôi thứ ba"
+        ]
+      },
+      "mau_tieu_de": [
+        "{nhan_vat_tham_hoa} và cái kết không ai ngờ",
+        "Lừa {nan_nhan}, {nhan_vat_tham} nhận quả báo ngay trong năm"
+      ]
+    }
+  }
+}

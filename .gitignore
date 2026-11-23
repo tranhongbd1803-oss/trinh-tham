@@ -1,0 +1,5 @@
+kenh-noi-dung/assets/clips/**
+kenh-noi-dung/assets/nhac/**
+!kenh-noi-dung/assets/**/.gitkeep
+kenh-noi-dung/xuat/
+__pycache__/
