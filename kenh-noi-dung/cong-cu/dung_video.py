@@ -129,7 +129,10 @@ def main():
     ap.add_argument("--phan", choices=["dai", "ngan"], default="dai")
     ap.add_argument("--giong", type=Path, help="file giọng có sẵn (bỏ qua TTS)")
     ap.add_argument("--phu-de", type=Path, help="file .srt có sẵn (khi dùng --giong)")
-    ap.add_argument("--voice", default=GIONG_MAC_DINH)
+    ap.add_argument("--may", choices=["edge", "vieneu"], default="edge",
+                    help="máy đọc: edge (Microsoft, cần mạng) hoặc vieneu (chạy tại máy, tự nhiên hơn)")
+    ap.add_argument("--voice", default=None, help="tên giọng; vieneu vd 'Ngọc Linh', edge vd vi-VN-NamMinhNeural")
+    ap.add_argument("--toc-do-vieneu", type=float, default=1.0)
     ap.add_argument("--toc-do", default="-5%", help="tốc độ đọc, vd -10%%, +0%%")
     ap.add_argument("--cao-do", default="-2Hz")
     ap.add_argument("--clips", type=Path, required=True, help="thư mục clip nền")
@@ -158,8 +161,16 @@ def main():
         if not a.kich_ban:
             raise SystemExit("Cần --kich-ban hoặc --giong")
         text = lay_van_ban(a.kich_ban, a.phan)
-        print(f"• Đọc {len(text.split())} chữ bằng giọng {a.voice} ...")
-        giong, srt = tao_giong(text, a.voice, a.toc_do, a.cao_do, tmp)
+        if a.may == "vieneu":
+            import giong_vieneu
+            a.voice = a.voice or "Ngọc Linh"
+            print(f"• Đọc {len(text.split())} chữ bằng VieNeu, giọng {a.voice} ...")
+            giong, srt = tmp / "giong.wav", tmp / "phude.srt"
+            giong_vieneu.doc(text, a.voice, giong, srt, a.toc_do_vieneu)
+        else:
+            a.voice = a.voice or GIONG_MAC_DINH
+            print(f"• Đọc {len(text.split())} chữ bằng giọng {a.voice} ...")
+            giong, srt = tao_giong(text, a.voice, a.toc_do, a.cao_do, tmp)
     tong = do_dai(giong)
     print(f"• Giọng dài {tong/60:.1f} phút")
 

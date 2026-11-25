@@ -1,1 +1,2 @@
 edge-tts>=7.0
+vieneu>=3.8
