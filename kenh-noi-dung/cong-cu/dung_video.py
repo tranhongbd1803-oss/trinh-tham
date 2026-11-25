@@ -71,7 +71,8 @@ def lay_van_ban(kich_ban: Path, phan: str) -> str:
 
 async def _tts(text, voice, rate, pitch, mp3, srt):
     import edge_tts
-    com = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch)
+    proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
+    com = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch, proxy=proxy)
     sub = edge_tts.SubMaker()
     with open(mp3, "wb") as f:
         async for chunk in com.stream():
@@ -196,7 +197,7 @@ def main():
         srt_safe = str(Path(srt).resolve()).replace("\\", "/").replace(":", r"\:")
         vf = f"[0:v]subtitles='{srt_safe}':force_style='{style}'[v]"
     cmd += ["-filter_complex", f"{vf};{af}", "-map", "[v]", "-map", "[a]",
-            "-t", f"{tong:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "20",
+            "-t", f"{tong:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "22",
             "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(a.ra)]
     a.ra.parent.mkdir(parents=True, exist_ok=True)
     chay(cmd)
