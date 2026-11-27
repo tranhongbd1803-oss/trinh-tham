@@ -1,10 +1,11 @@
 # Tuyến nội dung và giọng đã chốt
 
-| Tên gọi | Là gì | Độ dài | Giọng |
+| Tên gọi | Là gì | Ai làm | Giọng |
 |---|---|---|---|
-| **PODCAST** | Đời sống thực tế cho người đi làm 22–35 tuổi, dựa trên sách hiện đại (kiểu Better Version). Kịch bản: `podcast/` | 15–20 phút | Giọng thật của chủ kênh, thu bằng điện thoại → `cong-cu/xu_ly_giong.py` → `dung_video.py --giong` |
-| **CHUYỆN** | Truyện hư cấu công sở / gia đình / ân tình / nhân quả. YouTube bản đầy đủ, TikTok chia tập | 8–12 phút | `Ngọc Huyền` (VieNeu, `--may vieneu`) |
-| **KINH** | Sách cổ: video dài theo chủ đề (`kenh-2-sach-thuc-tinh/video-dai/`) và diễn giải từng chương (`dao-duc-kinh/`) | 6–20 phút | `Thiền Tâm Đức`, `Thanh Bình` |
+| **PODCAST** | Chỉ nhóm chủ đề ăn khách: cảm xúc và tâm lý (giận, tự ti, trì hoãn, kỷ luật) và các mốc tuổi (25, 35). Kịch bản: `podcast/` | Claude viết, chủ kênh thu âm | Giọng thật, thu bằng điện thoại → `cong-cu/xu_ly_giong.py` → `dung_video.py --giong` |
+| **SÁCH** | Công thức Better Version: mỗi video một cuốn sách, tiêu đề bán vấn đề của người xem; ưu tiên mảng tỉnh thức, Đạo gia, Phật gia; xếp theo "tủ sách"; âm thanh đăng lại làm podcast Spotify/Apple. Kịch bản: `kenh-2-sach-thuc-tinh/video-dai/` | Claude làm trọn | Giọng máy `Thiền Tâm Đức`, `Thanh Bình` |
+| **CHUYỆN** | Truyện hư cấu công sở / gia đình / ân tình / nhân quả. YouTube bản đầy đủ, TikTok chia tập | Claude làm trọn | Giọng máy `Ngọc Huyền` |
+| **KINH** | Diễn giải sách cổ từng chương (`dao-duc-kinh/`) — tạm gác | Claude làm trọn | Giọng máy `Thiền Tâm Đức` |
 
 Ưu tiên hiện tại: PODCAST và CHUYỆN.
 
