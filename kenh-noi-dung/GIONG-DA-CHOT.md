@@ -1,5 +1,7 @@
 # Tuyến nội dung và giọng đã chốt
 
+**Kênh YouTube:** Nâng Cấp Góc Nhìn (`@nangcapgocnhin`) — gồm 2 series: GÓC NHÌN (tuyến PODCAST) và ĐỌC CHẬM (tuyến SÁCH). Kênh CHUYỆN riêng, chờ tên.
+
 | Tên gọi | Là gì | Ai làm | Giọng |
 |---|---|---|---|
 | **PODCAST** | Chỉ nhóm chủ đề ăn khách: cảm xúc và tâm lý (giận, tự ti, trì hoãn, kỷ luật) và các mốc tuổi (25, 35). Kịch bản: `podcast/` | Claude viết, chủ kênh thu âm | Giọng thật, thu bằng điện thoại → `cong-cu/xu_ly_giong.py` → `dung_video.py --giong` |
