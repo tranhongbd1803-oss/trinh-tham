@@ -6,7 +6,7 @@ Một kênh YouTube, hai series (danh sách phát). Ảnh nằm trong `thuong-hi
 |---|---|
 | **Tên kênh** | Nâng Cấp Góc Nhìn |
 | **Địa chỉ (handle)** | `@nangcapgocnhin` (còn trống ngày 27/11/2026) |
-| **Ảnh đại diện** | `thuong-hieu/anh-dai-dien.png` — cặp kính thấy bình minh, nền vàng nắng (tạo bằng `node ncgn.js kinh`) |
+| **Ảnh đại diện** | `thuong-hieu/anh-dai-dien.png` — dấu "góc mở": hai nét xanh đậm tạo thành một góc, chấm vàng là điểm nhìn (tạo bằng `node ncgn.js goc-mo`) |
 | **Ảnh bìa kênh** | `thuong-hieu/anh-bia-kenh.png` (2560×1440, chữ nằm trong vùng an toàn giữa ảnh) |
 
 **Mô tả kênh:**
