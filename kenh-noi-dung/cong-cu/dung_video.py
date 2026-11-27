@@ -10,7 +10,7 @@ nhưng KHÔNG video nào có kết cấu giống hệt video nào (đổi --seed
 Cách dùng (chạy trên máy anh/chị, cần internet cho giọng đọc):
   pip install edge-tts
   python dung_video.py --kich-ban ../kenh-1-chuyen-doi/kich-ban-goc/001-*.md \
-      --clips ../assets/clips/nau-an --nhac ../assets/nhac/piano-1.mp3 \
+      --clips ../assets/clips/nau-an --nhac ../assets/nhac/tinh \
       --khung 16x9 --ra ../xuat/001.mp4
 
   # Bản TikTok/Shorts dọc 9:16, dùng phần "BẢN NGẮN" trong kịch bản:
@@ -123,6 +123,39 @@ def cat_doan(d, w, h, fps, out):
           "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", str(out)])
 
 
+DUOI_NHAC = {".mp3", ".wav", ".m4a", ".ogg", ".flac"}
+
+
+def lam_nen_nhac(nguon, tong, rng, muc, giu_goc, tmp):
+    """Xử lý từng bản nhạc cho dịu và đều, xáo thứ tự, nối nhau cho đủ dài."""
+    ds = []
+    for p in nguon:
+        p = Path(p)
+        ds += sorted(x for x in p.rglob("*") if x.suffix.lower() in DUOI_NHAC) if p.is_dir() else [p]
+    if not ds:
+        raise SystemExit("Không thấy file nhạc nào")
+    rng.shuffle(ds)
+    diu = "" if giu_goc else "lowpass=f=5000,acompressor=threshold=-24dB:ratio=3:attack=50:release=600,"
+    xong, t, i = [], 0.0, 0
+    while t < tong + 5:
+        src = ds[i % len(ds)]
+        out = tmp / f"nhac{i % len(ds):02d}.wav"
+        if not out.exists():
+            d = do_dai(src)
+            chay(["ffmpeg", "-y", "-v", "error", "-i", str(src), "-vn", "-ac", "2", "-ar", "48000", "-af",
+                  f"{diu}loudnorm=I={muc}:TP=-6:LRA=5,afade=t=in:d=2,afade=t=out:st={max(d-3,0):.2f}:d=3",
+                  str(out)])
+        xong.append(out)
+        t += do_dai(out)
+        i += 1
+    lst = tmp / "nhac.txt"
+    lst.write_text("".join(f"file '{x}'\n" for x in xong))
+    bed = tmp / "nen_nhac.wav"
+    chay(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(bed)])
+    print("• Nhạc nền:", " → ".join(x.stem for x in ds[:min(len(ds), i)]))
+    return bed
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--kich-ban", type=Path, help="file kịch bản .md")
@@ -136,8 +169,12 @@ def main():
     ap.add_argument("--toc-do", default="-5%", help="tốc độ đọc, vd -10%%, +0%%")
     ap.add_argument("--cao-do", default="-2Hz")
     ap.add_argument("--clips", type=Path, required=True, help="thư mục clip nền")
-    ap.add_argument("--nhac", type=Path, help="file nhạc nền (sẽ lặp nếu ngắn)")
-    ap.add_argument("--am-luong-nhac", type=float, default=0.12)
+    ap.add_argument("--nhac", type=Path, nargs="+",
+                    help="một hay nhiều file nhạc / thư mục nhạc; nhiều bản thì xáo thứ tự theo seed và nối nhau")
+    ap.add_argument("--muc-nhac", type=float, default=-30,
+                    help="độ to của nhạc nền (LUFS). Giọng ở -16; -30 là nhạc rất nhẹ, -26 rõ hơn")
+    ap.add_argument("--nhac-goc", action="store_true",
+                    help="giữ nguyên âm sắc nhạc (mặc định: cắt bớt âm cao + nén cho dịu, dễ nghe ban đêm)")
     ap.add_argument("--khung", choices=list(KHUNG), default="16x9")
     ap.add_argument("--fps", type=int, default=30)
     ap.add_argument("--khong-phu-de", action="store_true", help="không in phụ đề lên hình")
@@ -191,11 +228,12 @@ def main():
     # 3) Trộn giọng + nhạc, in phụ đề
     cmd = ["ffmpeg", "-y", "-v", "error", "-i", str(nen), "-i", str(giong)]
     if a.nhac:
-        cmd += ["-stream_loop", "-1", "-i", str(a.nhac)]
-        af = (f"[2:a]volume={a.am_luong_nhac},afade=t=in:d=3,"
-              f"afade=t=out:st={max(tong-4,0)}:d=4[n];"
-              f"[1:a][n]amix=inputs=2:duration=first:dropout_transition=0,"
-              f"loudnorm=I=-16:TP=-1.5:LRA=11[a]")
+        nen_nhac = lam_nen_nhac(a.nhac, tong, rng, a.muc_nhac, a.nhac_goc, tmp)
+        cmd += ["-i", str(nen_nhac)]
+        af = (f"[2:a]afade=t=in:d=3,afade=t=out:st={max(tong-5,0)}:d=5[n];"
+              f"[1:a]loudnorm=I=-16:TP=-1.5:LRA=11[g];"
+              f"[g][n]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,"
+              f"alimiter=limit=0.84[a]")
     else:
         af = "[1:a]loudnorm=I=-16:TP=-1.5:LRA=11[a]"
     vf = "[0:v]null[v]"
