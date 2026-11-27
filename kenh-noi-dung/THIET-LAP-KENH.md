@@ -12,15 +12,21 @@ Một kênh YouTube, hai series (danh sách phát). Ảnh nằm trong `thuong-hi
 **Mô tả kênh:**
 
 ```
-Nâng Cấp Góc Nhìn — Mỗi tuần một cuốn sách, để hiểu mình hơn và là chính mình.
+Nâng Cấp Góc Nhìn — Mỗi tuần một cuốn sách, một góc nhìn mới để sống rõ ràng và nhẹ nhàng hơn.
 
-Ở đây có hai series:
-• GÓC NHÌN — Chuyện rất đời của người đi làm: cơn giận, trì hoãn, tự ti, kỷ luật, tuổi 25, tuổi 35… kể lại qua những cuốn sách hay về tâm lý và cuộc sống.
-• ĐỌC CHẬM — Sách cổ và triết học sống: Đạo Đức Kinh, Suy Tưởng, Trang Tử… diễn giải chậm rãi để nghe khi cần tĩnh lại.
+Kênh kể lại những ý đáng giá nhất từ sách hay về tâm lý, cảm xúc và cách sống, bằng ngôn ngữ đời thường, cho người đang đi làm và đang tự tìm đường cho mình.
 
-Video mới mỗi tuần. Đăng ký để không lỡ cuốn sách tiếp theo.
-Phần diễn giải do kênh tự biên soạn; series Đọc Chậm dùng giọng đọc tổng hợp.
+Đăng ký kênh để nhận video mới mỗi tuần.
+
+☕ Nếu nội dung có ích với bạn, bạn có thể ủng hộ kênh để mình duy trì và làm tốt hơn:
+[Ngân hàng] – [Số tài khoản] – [Tên chủ tài khoản]
+MoMo: [số điện thoại]
+Mỗi đóng góp, dù nhỏ, đều được dùng để mua sách và sản xuất video mới. Cảm ơn bạn.
+
+Liên hệ hợp tác: [email]
 ```
+
+Các chỗ trong ngoặc vuông do chủ kênh tự điền. Khi kênh đủ điều kiện, bật thêm "Super Thanks" và "Hội viên kênh" của YouTube để người xem ủng hộ ngay dưới video.
 
 **Danh sách phát:**
 1. `GÓC NHÌN | Tâm lý và đời sống` — tuyến PODCAST, giọng chủ kênh
