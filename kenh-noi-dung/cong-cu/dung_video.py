@@ -120,7 +120,7 @@ def cat_doan(d, w, h, fps, out):
         vf.insert(2, "hflip")
     chay(["ffmpeg", "-y", "-v", "error", "-ss", str(d["tu"]), "-t", str(d["dai"]),
           "-i", str(d["clip"]), "-an", "-vf", ",".join(vf),
-          "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", str(out)])
+          "-c:v", "libx264", "-preset", "fast", "-crf", "25", str(out)])
 
 
 DUOI_NHAC = {".mp3", ".wav", ".m4a", ".ogg", ".flac"}
@@ -246,7 +246,7 @@ def main():
         srt_safe = str(Path(srt).resolve()).replace("\\", "/").replace(":", r"\:")
         vf = f"[0:v]subtitles='{srt_safe}':force_style='{style}'[v]"
     cmd += ["-filter_complex", f"{vf};{af}", "-map", "[v]", "-map", "[a]",
-            "-t", f"{tong:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "22",
+            "-t", f"{tong:.2f}", "-c:v", "libx264", "-preset", "fast", "-crf", "25",
             "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(a.ra)]
     a.ra.parent.mkdir(parents=True, exist_ok=True)
     chay(cmd)
