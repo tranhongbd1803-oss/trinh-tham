@@ -75,9 +75,17 @@ Chọn theo nhu cầu tìm kiếm cao và có hình ảnh ngụ ngôn mạnh đ�
 9. **#11** Nghỉ hay ở — Tái ông mất ngựa
 10. **#24** 35 tuổi chưa có gì
 
-## Chia giọng
+## Chia giọng (chủ kênh chốt ngày 28/11/2026)
 
-- **Chủ kênh thu (series GÓC NHÌN):** các bài thiên về cảm xúc và mốc tuổi — #1, #12, #21, #23, #24, #25, #26.
-- **Giọng máy (series ĐỌC CHẬM):** các bài thiên về ngụ ngôn và công việc — #7, #8, #9, #11, #13 và phần còn lại.
+- **Chủ kênh thu (series GÓC NHÌN):** 6 bài trong 10 bài đầu — tụt lại sau bạn bè, buông một người, suy nghĩ quá nhiều, cơn giận, mất phương hướng, 35 tuổi chưa có gì.
+- **Giọng máy (series ĐỌC CHẬM):** tức sếp/đồng nghiệp, kiệt sức, so sánh rồi tự ti, nghỉ hay ở, và các bài ngụ ngôn/công việc còn lại.
 
-Có thể đổi tuỳ ý; khung kịch bản giống nhau cho cả hai.
+## Trạng thái kịch bản
+
+| Bài | File | Trạng thái |
+|---|---|---|
+| Cơn giận | `podcast/002-con-gian.md` | đã viết (khung 3 ý), chờ thu |
+| Tụt lại sau bạn bè | `podcast/003-tut-lai-phia-sau.md` | đã viết, chờ duyệt |
+| Buông một người | `podcast/004-buong-mot-nguoi.md` | đã viết, chờ duyệt |
+
+Hai bài cũ viết theo kiểu lan man (Bốn Nghìn Tuần, Suy Tưởng) đã chuyển vào `gac-lai/`, không dựng.
