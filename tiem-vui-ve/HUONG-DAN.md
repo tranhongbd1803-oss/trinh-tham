@@ -26,3 +26,4 @@ Thêm bộ màu: sửa bảng `MAU` ở đầu file `khung.js` rồi chạy `nod
 - **Hình:** 12–15 đoạn cắt 2–3 giây, xếp đúng theo lời thoại; hình chỉ nằm ở 60% phía trên, thẻ chữ ở dưới.
 - **Âm nền:** tiếng ăn (nhai nhẹ làm nền ở đoạn xé–nhai–chấm; tiếng cắn, mở lon, rót bia, cụng ly đặt đúng chữ). Không ghép nhạc — chọn nhạc thịnh hành trong TikTok lúc đăng.
 - **Trên thẻ:** tiêu đề 2 dòng (tên món + lợi ích), mô tả 2–3 dòng. Giá, mã giảm, "bấm giỏ hàng" để ở chú thích TikTok.
+- **Giao kèm mỗi video:** chú thích TikTok (2–3 phương án, có câu nhắc bấm giỏ hàng) và bộ hashtag (3–4 thẻ rộng + 3–4 thẻ đúng món + 1–2 thẻ mùa vụ). Gửi dạng chữ ngay trong tin nhắn để chủ kênh sao chép trên điện thoại.
