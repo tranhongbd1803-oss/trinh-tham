@@ -166,6 +166,8 @@ def main():
                     help="máy đọc: edge (Microsoft, cần mạng) hoặc vieneu (chạy tại máy, tự nhiên hơn)")
     ap.add_argument("--voice", default=None, help="tên giọng; vieneu vd 'Ngọc Linh', edge vd vi-VN-NamMinhNeural")
     ap.add_argument("--toc-do-vieneu", type=float, default=1.0)
+    ap.add_argument("--tang-toc", type=float, default=1.0,
+                    help="tăng tốc giọng đọc sau khi tạo (vd 1.15), giữ nguyên cao độ; phụ đề tự co theo")
     ap.add_argument("--toc-do", default="-5%", help="tốc độ đọc, vd -10%%, +0%%")
     ap.add_argument("--cao-do", default="-2Hz")
     ap.add_argument("--clips", type=Path, required=True, help="thư mục clip nền")
@@ -204,6 +206,17 @@ def main():
             print(f"• Đọc {len(text.split())} chữ bằng VieNeu, giọng {a.voice} ...")
             giong, srt = tmp / "giong.wav", tmp / "phude.srt"
             giong_vieneu.doc(text, a.voice, giong, srt, a.toc_do_vieneu)
+            if abs(a.tang_toc - 1.0) > 0.01:
+                nhanh = tmp / "giong-nhanh.wav"
+                chay(["ffmpeg", "-y", "-v", "error", "-i", str(giong), "-af", f"atempo={a.tang_toc}", str(nhanh)])
+                giong = nhanh
+
+                def _co(m):
+                    ms = (int(m[1]) * 3600 + int(m[2]) * 60 + int(m[3])) * 1000 + int(m[4])
+                    ms = int(round(ms / a.tang_toc))
+                    return f"{ms//3600000:02d}:{ms//60000%60:02d}:{ms//1000%60:02d},{ms%1000:03d}"
+                srt.write_text(re.sub(r"(\d\d):(\d\d):(\d\d),(\d{3})", _co, srt.read_text(encoding="utf-8")),
+                               encoding="utf-8")
         else:
             a.voice = a.voice or GIONG_MAC_DINH
             print(f"• Đọc {len(text.split())} chữ bằng giọng {a.voice} ...")

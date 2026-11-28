@@ -21,6 +21,7 @@ ap.add_argument("--nhac", type=Path, nargs="*")
 ap.add_argument("--ra-thu-muc", type=Path, required=True)
 ap.add_argument("--ma", required=True)
 ap.add_argument("--seed", type=int, default=100)
+ap.add_argument("--tang-toc", type=float, default=1.0)
 a = ap.parse_args()
 
 raw = a.kich_ban.read_text(encoding="utf-8")
@@ -39,7 +40,7 @@ for i, t in enumerate(tap, 1):
     ra = a.ra_thu_muc / f"{a.ma}-tap{i}-tren-{n}.mp4"
     cmd = [sys.executable, str(Path(__file__).with_name("dung_video.py")), "--may", "vieneu", "--voice", a.voice,
            "--kich-ban", tam, "--phan", "ngan", "--clips", str(a.clips), "--khung", "9x16",
-           "--seed", str(a.seed + i), "--ra", str(ra)]
+           "--seed", str(a.seed + i), "--tang-toc", str(a.tang_toc), "--ra", str(ra)]
     if a.nhac:
         cmd += ["--nhac", *map(str, a.nhac)]
     print(f"— Tập {i}/{n}: {len(t.split())} chữ")
