@@ -13,3 +13,13 @@ Sáu khung 1080×1920 nền trong suốt trong `khung/`: đỏ Tết, bạc hà,
 node khung.js --mau do-tet --tieu-de "DÒNG 1|DÒNG 2" --mo-ta "Mô tả ngắn" --ra ten-file.png
 ```
 Thêm bộ màu: sửa bảng `MAU` ở đầu file `khung.js` rồi chạy `node khung.js`.
+
+## Công thức video affiliate của kênh (chốt 28/11/2026)
+
+- **Khung:** đỏ Tết (`khung/khung-do-tet.png`) cho hàng Tết; các màu khác dùng theo mùa/sản phẩm.
+- **Giọng:** VieNeu `Trúc Ly`, bản "thanh" (nâng tông 6%, làm sáng âm, nén nhẹ, đọc sát nhịp).
+- **Độ dài:** 30–40 giây. Lời thoại 150–185 chữ.
+- **Lời thoại:** câu móc trong 5 giây đầu → cầm/ngửi → cắn/nhai → chấm/kết hợp → dịp dùng (Tết, bia, biếu) → kêu gọi chốt đơn.
+- **Hình:** 12–15 đoạn cắt 2–3 giây, xếp đúng theo lời thoại; hình chỉ nằm ở 60% phía trên, thẻ chữ ở dưới.
+- **Âm nền:** tiếng ăn (nhai nhẹ làm nền ở đoạn xé–nhai–chấm; tiếng cắn, mở lon, rót bia, cụng ly đặt đúng chữ). Không ghép nhạc — chọn nhạc thịnh hành trong TikTok lúc đăng.
+- **Trên thẻ:** tiêu đề 2 dòng (tên món + lợi ích), mô tả 2–3 dòng. Giá, mã giảm, "bấm giỏ hàng" để ở chú thích TikTok.
