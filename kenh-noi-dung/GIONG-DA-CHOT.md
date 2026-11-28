@@ -11,8 +11,9 @@
 
 Ưu tiên hiện tại: PODCAST và CHUYỆN.
 
-## Nhạc nền đã chốt (SÁCH và KINH)
+## Nhạc nền đã chốt (28/11/2026)
 
-Ba bản trong `assets/nhac/tinh/`, dùng xoay vòng: `nature-meditation`, `piano-reflections`, `smooth-meditation` (nguồn Mixkit, miễn phí bản quyền).
-Chạy `dung_video.py --nhac ../assets/nhac/tinh` — máy tự xáo thứ tự theo seed, cắt bớt âm cao, nén cho đều và đặt nhạc ở mức -30 LUFS (giọng -16).
-Bản cũ "Forest Treasure" đã loại vì chói, nghe đêm khó chịu.
+Dùng ba bản **tự tạo bằng máy** trong `assets/nhac/tu-tao/` (`tu-tao-am`, `tu-tao-mo`, `tu-tao-chuong`), xoay vòng linh hoạt.
+Tạo lại bằng `python cong-cu/tao_nhac_nen.py --ra assets/nhac/tu-tao`. Chạy dựng với `--nhac ../assets/nhac/tu-tao`.
+
+**Không dùng nhạc Mixkit nữa:** video SÁCH 001 bị YouTube báo "Claimed content" (bài "Ajudar Com Sabedoria" – Glauber Ouro) do một trong ba bản Mixkit cũ (`assets/nhac/tinh/`).

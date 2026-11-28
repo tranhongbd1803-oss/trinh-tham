@@ -10,7 +10,7 @@ nhưng KHÔNG video nào có kết cấu giống hệt video nào (đổi --seed
 Cách dùng (chạy trên máy anh/chị, cần internet cho giọng đọc):
   pip install edge-tts
   python dung_video.py --kich-ban ../kenh-1-chuyen-doi/kich-ban-goc/001-*.md \
-      --clips ../assets/clips/nau-an --nhac ../assets/nhac/tinh \
+      --clips ../assets/clips/nau-an --nhac ../assets/nhac/tu-tao \
       --khung 16x9 --ra ../xuat/001.mp4
 
   # Bản TikTok/Shorts dọc 9:16, dùng phần "BẢN NGẮN" trong kịch bản:
