@@ -35,6 +35,14 @@ Tôi không cãi. Tôi photo. Nhưng khi photo, tôi đọc.
 
 [ngừng 1s]
 
+Trong phòng có chị Mai, làm ở đây đã tám năm. Chị là người duy nhất chịu ngồi ăn trưa với tôi. Một hôm, chị gắp cho tôi miếng trứng rồi nói nhỏ:
+
+"Em đừng tưởng anh Tuấn để yên cho ai giỏi hơn anh ấy. Hồi trước có một cậu làm được việc lắm, ba tháng là xin nghỉ. Em cứ làm, nhưng làm gì cũng nhớ giữ lại một bản."
+
+Tôi dạ cho qua. Lúc ấy tôi nghĩ chị nói quá.
+
+[TẬP]
+
 Đến tháng thứ hai, công ty chuẩn bị đấu thầu một công trình trường học ở ngoại thành, giá trị gần bốn mươi tỷ. Cả phòng chạy như con thoi. Một tối thứ sáu, mọi người về hết, anh Tuấn để lại trên bàn tôi một chồng bảng tính kèm một tờ giấy nhớ: "Kiểm tra lại giúp anh, sáng thứ hai nộp."
 
 Tôi ngồi đến hai giờ sáng. Và tôi phát hiện ra một điều.
@@ -42,6 +50,10 @@ Tôi ngồi đến hai giờ sáng. Và tôi phát hiện ra một điều.
 Đơn giá thép trong bản dự toán cao hơn giá thị trường gần mười lăm phần trăm. Khối lượng bê tông móng bị cộng hai lần ở hai hạng mục khác nhau. Nếu là sơ suất, thì đó là một sơ suất rất lớn. Còn nếu không phải sơ suất...
 
 Tôi không dám nghĩ tiếp.
+
+Tôi ngồi nhìn hai con số ấy rất lâu. Cả tầng chỉ còn mình tôi, tiếng điều hòa kêu rè rè. Tôi nghĩ đến bố đang nằm trong viện, nghĩ đến khoản nợ, nghĩ đến chuyện nếu mình nói ra mà nói sai thì sao. Một đứa mới vào hai tháng, lấy tư cách gì mà bảo trưởng phòng tính sai?
+
+Nhưng tôi cũng nghĩ: đây là một cái trường học. Thừa ra gần ba tỷ, là ba tỷ của người ta đóng góp để xây lớp cho trẻ con.
 
 Tôi làm lại toàn bộ bảng tính, ghi chú từng chỗ sai, in thành hai bản. Một bản tôi kẹp vào tập hồ sơ để trên bàn anh Tuấn. Bản còn lại, tôi cất vào ngăn kéo, khóa lại.
 
@@ -65,6 +77,12 @@ Tối hôm đó tôi ngồi ở hành lang bệnh viện, cạnh giường bố.
 
 [ngừng 2s]
 
+Hôm sau đi làm, chị Mai nhìn tôi rồi hỏi: "Em vẫn giữ bản của em đấy chứ?"
+
+Tôi gật đầu. Chị không nói gì thêm, chỉ đẩy sang bàn tôi một hộp sữa.
+
+[TẬP]
+
 Rồi ngày ký hợp đồng đến.
 
 Công ty thắng thầu. Bên chủ đầu tư là một quỹ giáo dục, họ cử một đoàn ba người đến, dẫn đầu là một bà cụ tóc bạc, nói năng chậm rãi, ánh mắt rất sắc. Phòng họp tầng mười hai được chuẩn bị kỹ càng. Tôi được gọi lên, nhưng không phải để dự họp, mà để bưng trà.
@@ -80,6 +98,12 @@ Bà cụ gật đầu. "Vậy anh giải thích giúp tôi: tại sao khối lư
 Anh Tuấn mở laptop. Lật trang. Lật thêm trang nữa. Phòng họp im đến mức nghe rõ tiếng điều hòa.
 
 Rồi anh ấy quay sang tôi, nói câu mà tôi đã kể ở đầu: "Em ra ngoài pha thêm ấm trà đi, ở đây không có việc của em."
+
+Cả phòng họp quay sang nhìn tôi. Tôi thấy giám đốc hơi cau mày. Tôi thấy chị Mai ngồi ở cuối bàn, khẽ gật đầu một cái rất nhẹ.
+
+Tim tôi đập mạnh đến mức tôi sợ người ta nghe thấy. Trong đầu tôi là hành lang bệnh viện, là câu bố hỏi đi làm có vui không con.
+
+[TẬP]
 
 Tôi đứng đó, tay còn cầm khay trà. Và lần đầu tiên sau ba tháng, tôi không cúi đầu.
 
@@ -98,6 +122,8 @@ Giám đốc nhìn tôi, rồi nhìn anh Tuấn. Tôi lấy từ trong túi ra b
 Cuộc họp hôm đó vẫn kết thúc bằng một chữ ký. Nhưng chữ ký của bên chủ đầu tư có thêm một điều kiện: người phụ trách dự toán cho công trình trường học phải là tôi.
 
 Một tuần sau, công ty kiểm tra lại các dự án anh Tuấn từng phụ trách. Đơn giá thép bị đẩy lên không chỉ một lần. Anh ấy nghỉ việc trước khi kết quả kiểm tra được công bố.
+
+Người ta đồn anh ấy đã làm như vậy nhiều năm, và những người từng phát hiện ra đều lần lượt rời công ty. Chị Mai bảo tôi: "Chị biết từ lâu, mà chị không có gì trong tay. Em thì có."
 
 Hôm anh ấy dọn đồ, tôi đi ngang qua. Anh ấy không nhìn tôi. Tôi cũng không nói gì. Có những lúc im lặng là đủ.
 

@@ -28,6 +28,8 @@ Từ hôm đó, Khôi trở thành người vô hình.
 
 [ngừng 1s]
 
+Tôi vẫn nhớ tuần đầu tiên, Khôi mang đến phòng một túi quýt, đặt lên bàn chung, nói nhỏ: "Quýt quê em, mọi người ăn cho vui." Chị Loan liếc qua rồi bảo: "Để đấy đi." Đến chiều, túi quýt vẫn nguyên. Không ai dám là người bóc quả đầu tiên. Cuối ngày, tôi thấy Khôi lặng lẽ xách túi quýt về.
+
 Lần đầu tiên là bữa liên hoan chào thành viên mới. Cả phòng đi ăn lẩu. Không ai báo cho Khôi. Sáng hôm sau, chị Loan nói to: "Ơ, hôm qua em không đi à? Chắc bận việc nhỉ." Mọi người cười. Tôi cũng cười. Tôi nhớ rất rõ là mình đã cười.
 
 Lần thứ hai, máy chủ lưu hồ sơ bệnh nhân bị lỗi lúc nửa đêm. Khôi ở lại đến bốn giờ sáng để khôi phục dữ liệu. Sáng hôm sau, trong cuộc họp, chị Loan báo cáo với ban giám đốc rằng phòng hành chính đã "xử lý kịp thời". Tên Khôi không được nhắc đến.
@@ -35,6 +37,16 @@ Lần thứ hai, máy chủ lưu hồ sơ bệnh nhân bị lỗi lúc nửa đ�
 Lần thứ ba, là ở căng tin. Một bạn thực tập sinh mới, chưa biết luật, bưng khay cơm đến ngồi cạnh Khôi. Chiều hôm đó, chị Loan gọi bạn ấy vào phòng riêng. Hôm sau, bạn ấy ngồi bàn khác. Từ đó, Khôi ăn cơm hộp một mình, ở góc căng tin, cạnh cửa sổ.
 
 Còn tôi, ngồi cách cậu ấy hai cái bàn. Im lặng.
+
+[TẬP]
+
+Có một lần, tôi suýt nữa đã lên tiếng.
+
+Hôm ấy máy in của phòng hỏng, cả phòng đang cần in gấp hồ sơ cho đoàn kiểm tra. Khôi chui xuống gầm bàn sửa gần một tiếng, áo dính đầy mực. Khi máy chạy lại, chị Loan chỉ nói: "Lần sau nhanh lên, đừng để cả phòng phải chờ."
+
+Tôi đã mở miệng định nói một câu cảm ơn. Rồi tôi thấy ánh mắt chị Loan lướt qua, và tôi cúi xuống màn hình.
+
+Khôi lau tay, quay về góc bàn của mình. Cậu ấy không tỏ ra buồn. Có lẽ điều đó mới làm tôi thấy khó chịu nhất: cậu ấy đã quen rồi.
 
 [ngừng 2s]
 
@@ -44,11 +56,17 @@ Như việc Khôi luôn đọc một cuốn sách bìa xanh, chữ rất lạ. N
 
 [ngừng 1s]
 
+Có một buổi tối tôi về muộn, đi ngang phòng máy chủ. Khôi đang nghe điện thoại, giọng khác hẳn mọi ngày: nhanh, rõ, và có cả tiếng cười. Thứ tiếng ấy tôi không hiểu một chữ nào. Thấy tôi, cậu ấy cúi đầu chào rồi hạ giọng xuống. Tôi đi tiếp, và quên luôn chuyện đó.
+
+[TẬP]
+
 Cuối năm, bệnh viện chuẩn bị ký hợp tác với một tập đoàn y tế Nhật Bản. Đây là dự án lớn nhất từ trước đến nay. Buổi tổng kết cuối năm được ghép luôn với buổi gặp mặt đối tác. Phía Nhật cử sang một vị bác sĩ lớn tuổi, đi kèm một phiên dịch viên.
 
 Mọi thứ đang suôn sẻ thì phiên dịch viên bị ngộ độc thực phẩm, phải vào cấp cứu ngay giữa buổi.
 
 Phòng họp rối tung. Ban giám đốc gọi điện khắp nơi. Chị Loan đứng giữa phòng, mặt tái đi, vì chị là người chịu trách nhiệm hậu cần buổi hôm ấy.
+
+Tôi nghe giám đốc nói qua điện thoại: "Tìm đâu ra phiên dịch tiếng Nhật trong vòng mười phút bây giờ?" Vị bác sĩ người Nhật ngồi im, hai tay đặt trên đùi, vẻ mặt khó đoán. Ai cũng hiểu: nếu buổi hôm nay hỏng, sáu tháng chuẩn bị coi như bỏ.
 
 Rồi Khôi đứng dậy.
 
@@ -59,6 +77,8 @@ Hóa ra, sáu năm "đi xuất khẩu lao động" của Khôi là sáu năm là
 Suốt buổi chiều hôm đó, Khôi phiên dịch toàn bộ cuộc họp. Đến phần kỹ thuật, cậu ấy không cần phiên dịch nữa. Cậu ấy trình bày luôn.
 
 [ngừng 2s]
+
+[TẬP]
 
 Tối đó, sau khi đối tác về, ban giám đốc gọi Khôi lên. Cả phòng chúng tôi ngồi lại, không ai nói gì. Chị Loan ngồi nhìn xuống bàn rất lâu.
 
