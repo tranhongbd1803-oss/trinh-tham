@@ -17,7 +17,7 @@ Video mẫu: áo choàng tắm hở lưng, bao lì xì vuông mini, combo 3 bộ
 ## Giọng
 - Giọng nữ rất cao, khoảng 290–315 Hz, đọc nhanh 320–370 chữ/phút, nói liền hơi, gần như không nghỉ giữa câu.
 - Lời bắt đầu ngay giây 0, không có đoạn dạo.
-- Bản Trúc Ly đang dùng (nâng 6%, x1.15) đạt khoảng 268 Hz và 315 chữ/phút: tốc độ đã khớp, **cao độ còn thấp hơn kênh khoảng 12%**. Muốn sát kênh: nâng tông 20% (ra ~300 Hz), không cần tăng tốc riêng.
+- Bản Trúc Ly đang dùng (nâng 6%, x1.15) đạt khoảng 268 Hz và 315 chữ/phút: tốc độ đã khớp, **cao độ còn thấp hơn kênh khoảng 12%**. Muốn sát kênh: nâng tông 14% và tăng tốc 7% (đo được ~308 Hz, ~315 chữ/phút).
 
 ## Lời thoại
 - **Câu mở** là một câu nói đời thường, có đối tượng và có "cà khịa" nhẹ, không phải câu cảm thán:
@@ -41,7 +41,7 @@ Video mẫu: áo choàng tắm hở lưng, bao lì xì vuông mini, combo 3 bộ
 - Đồ mặc: đổi cảnh rất nhanh (1,6 s/cảnh). Đồ ăn: chậm hơn (2,5–4,5 s/cảnh), nhiều cận cảnh cắn, chấm, đổ.
 
 ## Điều chỉnh công thức Tiệm Vui Vẻ theo kênh
-1. Nâng tông giọng 20% thay vì 6% (chờ chủ kênh nghe mẫu và chốt).
+1. Nâng tông giọng 14% + tăng tốc 7% thay vì nâng 6% + x1.15 (chờ chủ kênh nghe mẫu và chốt).
 2. Câu mở kiểu nói chuyện "cà khịa" thay cho "Trời ơi!" khi hợp sản phẩm.
 3. Lời có ít nhất một con số và một góc giá; câu chốt dùng "hốt liền kẻo hết".
 4. Mô tả trên thẻ dài 4–5 dòng, có số đo và lời nhắc giỏ hàng.
